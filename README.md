@@ -41,4 +41,4 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-Sriharsha Koppula — AI Engineer
+Sriharsha Koppula
