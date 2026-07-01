@@ -44,4 +44,8 @@ Active development 🚀
 
 ## 👨‍💻 Author
 
+<<<<<<< HEAD
 Sriharsha Koppula 
+=======
+Sriharsha Koppula
+>>>>>>> e203bded2312de28e725323818f552ffe248cef2

@@ -1,4 +1,4 @@
-from langchain_ollama import ChatOllama
+from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 from dotenv import load_dotenv
 from langgraph.graph import StateGraph, END
@@ -25,7 +25,10 @@ Follow these rules strictly:
 5. TONE: Be concise, professional, and helpful at all times.
 """
 
-llm = ChatOllama(model="llama3.1")
+llm = ChatOpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
+    model="gpt-4o-mini"
+)
 search_tool = TavilySearch(api_key=os.getenv("TAVILY_API_KEY"))
 tools = [search_tool]
 llm_with_tools = llm.bind_tools(tools)
