@@ -27,7 +27,7 @@ Follow these rules strictly:
 
 llm = ChatOpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    model="gpt-4o-mini"
+    model="gpt-3.5-turbo"
 )
 search_tool = TavilySearch(api_key=os.getenv("TAVILY_API_KEY"))
 tools = [search_tool]
