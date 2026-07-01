@@ -39,6 +39,9 @@ streamlit run app.py
 - Add memory across sessions
 - Add document upload and analysis
 
+## Status
+Active development 🚀
+
 ## 👨‍💻 Author
 
-Sriharsha Koppula — AI Engineer
+Sriharsha Koppula 
